@@ -1,0 +1,17 @@
+This space calculator was created during my second week of learning Python.
+It is designed to calculate key values used in spaceflight and planetary physics.
+The program lets you choose between four options:
+
+Orbital velocity
+
+Escape velocity
+
+Surface gravity
+
+Delta-v using the Tsiolkovsky rocket equation.
+
+Depending on the option you select, the program asks for the planet’s mass and radius (or the rocket’s masses and exhaust velocity) and then uses real physics formulas, including the gravitational constant G = 6.674 × 10⁻¹¹, to compute the result.
+
+For example, if you choose the Tsiolkovsky option, the program calculates how much delta-v a rocket can produce based on its initial mass, final mass, and exhaust velocity.
+
+If a number outside 1-4 is entered, the program displays “Invalid option” and exits.
